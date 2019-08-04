@@ -7,8 +7,8 @@
 
 #include "FlxUtility.h"
 
-namespace std
-{
+using  namespace std;
+
 
 
 
@@ -611,4 +611,4 @@ int FlxUtility::changeFlxUtilityValue(int utilTypeIndex, int utilParamIndex, int
 
 	return status;
 }
-}
+

@@ -7,8 +7,8 @@
 
 #include "Effect.h"
 
-namespace std
-{
+using  namespace std;
+
 
 
 
@@ -168,4 +168,4 @@ int Effect::getParamCount()
 #endif
 	return this->parameters.size();
 }
-}
+

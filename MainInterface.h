@@ -32,8 +32,8 @@
 #include "Utilities.h"
 #include "structs.h"
 
-namespace std
-{
+
+
 
 
 
@@ -93,5 +93,5 @@ public:
 	PedalStatus readFlxMain(void);
 
 };
-}
+
 #endif /* MAININTERFACE_H_ */

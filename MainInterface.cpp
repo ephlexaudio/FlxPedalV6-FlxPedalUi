@@ -6,11 +6,8 @@
  */
 
 #include "MainInterface.h"
-namespace std
-{
 
-
-
+using namespace std;
 
 
 #define dbg 0
@@ -576,4 +573,4 @@ PedalStatus MainInterface::readFlxMain(void)
 	}
 	return pedalStatus;
 }
-}
+

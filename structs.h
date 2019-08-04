@@ -8,6 +8,10 @@
 #ifndef STRUCTS_H_
 #define STRUCTS_H_
 
+
+#include <string>
+#include <cstring>
+#include <vector>
 #include <unistd.h>
 #include <fcntl.h>
 #include <getopt.h>
@@ -18,11 +22,10 @@
 #include <sys/ioctl.h>
 #include <linux/types.h>
 #include <signal.h>
-#include <string>
-#include <cstring>
 
-namespace std
-{
+
+using std::string;
+using std::vector;
 
 
 
@@ -85,5 +88,5 @@ struct UtilType{
 	string abbr;
 	vector<UtilParam> utilParams;
 };
-}
+
 #endif /* STRUCTS_H_ */

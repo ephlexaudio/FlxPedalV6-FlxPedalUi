@@ -26,8 +26,8 @@
 
 #include "Parameter.h"
 
-namespace std
-{
+
+
 
 
 
@@ -52,5 +52,5 @@ public:
 
 
 };
-}
+
 #endif /* EFFECT_H_ */

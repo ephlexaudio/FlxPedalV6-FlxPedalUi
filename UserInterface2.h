@@ -20,7 +20,7 @@
 #include <linux/types.h>
 #include <signal.h>
 #include <sstream>
-
+#include <vector>
 #include <string>
 #include <cstring>
 #include <iostream>
@@ -40,8 +40,8 @@
 #define LCD_LINE4_ADDR 0x54
 #define SET_DDRAM_ADDRESS 0x80
 
-namespace std
-{
+
+using std::vector;
 
 
 
@@ -88,5 +88,5 @@ public:
 	void writeSoftKeys(int startIndex, vector<string> softKeyAbbrs);
 
 };
-}
+
 #endif /* USERINTERFACE_H_ */

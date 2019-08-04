@@ -7,8 +7,8 @@
 
 #include "Utilities.h"
 
-namespace std
-{
+using  namespace std;
+
 
 
 
@@ -37,4 +37,4 @@ string getCompactedJSONData(Json::Value data)
 
 	return reducedData;
 }
-}
+

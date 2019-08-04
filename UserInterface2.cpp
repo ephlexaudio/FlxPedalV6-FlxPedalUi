@@ -12,8 +12,8 @@
 //#include "config.h"
 
 
-namespace std
-{
+using  namespace std;
+
 
 
 
@@ -470,4 +470,4 @@ string UserInterface2::centeredString(string text, int totalStringLength)
 	return centeredText;
 }
 
-}
+
